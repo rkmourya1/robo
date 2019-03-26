@@ -62,7 +62,17 @@ gradlew clean build installDist
 Above will build the project and create a distrbutable and install it. Also it will run unit test and code analysis tools (findbug, pmd), code coverage tool (Jacoco).
 The detail test, code analysis and code coverage report will be generated in <ROBO_PROJECT_HOME>/build/reports folder.
 
-## Run Robo Applicatiom
+### FindBug Report
+<ROBO_PROJECT_HOME>/build/reports/findbugs/main.html
+### PMD Report
+<ROBO_PROJECT_HOME>/build/reports/pmd/main.html
+### Jacoco Report
+<ROBO_PROJECT_HOME>/build/reports/jacoco/test/html/index.html
+### Unit Test Report
+<ROBO_PROJECT_HOME>/build/reports/tests/test/index.html
+
+
+## Run Robo Application
 
 Option 1: The above build step have created the application distributable at <ROBO_PROJECT_HOME>/build/distributions. Take the tar or zip and extract in a folder on a system with Java 1.8 installed
 <br><
