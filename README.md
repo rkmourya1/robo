@@ -9,7 +9,7 @@ The robot is free to roam around the surface of the table, but it is prevented f
 destruction. Any movement that would result in the robot falling from the table will be ignored,
 however further valid movement commands are still allowed.
 <br><br>
-Create an application that can read in commands of the following form - <br>
+This application can read in commands of the following form - <br>
 <pre>
  PLACE X,Y,F
  MOVE
