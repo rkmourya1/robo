@@ -75,12 +75,12 @@ The detail test, code analysis and code coverage report will be generated in <RO
 ## Run Robo Application
 
 Option 1: The above build step have created the application distributable at <ROBO_PROJECT_HOME>/build/distributions. Take the tar or zip and extract in a folder on a system with Java 1.8 installed
-<br><
-Option 2: Above build has installed it at <ROBO_PROJECT_HOME>/build/install folder.
-<br><br>
-By either of the option, you will have "robo" folder installed and have bin and lib folder inside it
 <br>
-Goto installed loaction e.g: <ROBO_PROJECT_HOME>/build/install/robo and cd inside bin folder and run and play with Robo as example below:
+Option 2: Above build has installed application at <ROBO_PROJECT_HOME>/build/install folder.
+<br><br>
+By either of the option, you will have "robo" folder installed which contains bin and lib folders.
+<br>
+Goto installed loaction (e.g: <ROBO_PROJECT_HOME>/build/install/robo or <INSTALL_DIR>/robo) and cd to bin folder and run "robo" and play with Robo as example below:
 <pre>
 D:\workspace\robo\build\install\robo\bin>robo
 Welcome to play with MyRobo. Please enter commands to play with it.
